@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resps",
+  "info": {
+    "singularName": "responses",
+    "pluralName": "resps",
+    "displayName": "Responses"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "agreement": {
+      "type": "boolean"
+    }
+  }
+}
